@@ -62,72 +62,18 @@
                     <h4 class="modal-title">Configuration</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Search Engine:</p><div class="form-check">
-  <input value="swivro" class="form-check-input" type="radio" name="flexRadioDefault" id="swivro flexRadioDefault1">
-  <label class="form-check-label" for="flexRadioDefault1">
-    Swivro
-  </label>
-</div>
-<div class="form-check">
-  <input value="qwant" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-  <label class="form-check-label" for="flexRadioDefault2">
-    Qwant
-  </label>
-</div>
-<div class="form-check">
-  <input value="brave" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-  <label class="form-check-label" for="flexRadioDefault2">
-    Brave
-  </label>
-</div>
-<div class="form-check">
-  <input value="duckduckgo" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-  <label class="form-check-label" for="flexRadioDefault2">
-    DuckDuckGo
-  </label>
-</div>
-<div class="form-check">
-  <input value="startpage" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-  <label class="form-check-label" for="flexRadioDefault2">
-    Startpage
-  </label>
-</div>
-<div class="form-check">
-  <input value="ecosia" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
-  <label class="form-check-label" for="flexRadioDefault2">
-    Ecosia
-  </label>
-</div>
-<div class="form-check">
-  <input value="mojeek" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
-  <label class="form-check-label" for="flexRadioDefault2">
-    Mojeek
-  </label>
-</div>
-<div class="form-check">
-  <input value="yandex" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault8">
-  <label class="form-check-label" for="flexRadioDefault2">
-    Yandex
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault9">
-  <label value="metager" class="form-check-label" for="flexRadioDefault2">
-    Metager
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault10">
-  <label value="searxbe" class="form-check-label" for="flexRadioDefault2">
-    Searx.be
-  </label>
-</div>
-<div class="form-check">
-  <input value="swisscows" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault11">
-  <label class="form-check-label" for="flexRadioDefault2">
-    Swisscows
-  </label>
-</div>
+                    <p>Search Engine:</p><select id="engines" class="form-control">
+  <option value="swivro">Swivro</option>
+  <option value="google">Google</option>
+  <option value="bing">Bing</option>
+  <option value="qwant">Qwant</option>
+  <option value="brave">Brave</option>
+  <option value="duckduckgo">DuckDuckGo</option>
+  <option value="startpage">Startpage</option>
+  <option value="ecosia">Ecosia</option>
+  <option value="mojeek">Mojeek</option>
+  <option value="yandex">Yandex</option>
+</select>
                 </div>
                 <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button" onclick="saveConfig()">Save</button></div>
             </div>
