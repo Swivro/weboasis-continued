@@ -1,7 +1,10 @@
 function saveConfig() {
-    if (document.getElementById("swivro").checked) {
-         console.log("ok");
-    } else {
-         console.log("no");
-    }
+    
+    const yourInput = document.getElementById("idGoesHere");
+     let fromTo = {
+        "google": "https://google.com/?q=",
+        "qwant": "https://qwant.com/?q="
+        // more things go here...
+     }
+    localStorage.setItem(yourInput.value, fromTo[yourInput.value])  
 }
