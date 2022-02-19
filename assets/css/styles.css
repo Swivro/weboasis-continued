@@ -1,0 +1,109 @@
+.searchbox {
+  max-width: 500px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+body {
+}
+
+/* basic reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Page settings */
+
+html {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #fff 0%, #aaa 100%) no-repeat;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  text-align: center;
+  display: table;
+  background: black;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  opacity: 0.4;
+}
+
+#author {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #0F0;
+  z-index: 1;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+span {
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+.options {
+  max-width: 500px;
+  padding-top: 25px;
+}
+
+.bordercircle {
+  border-style: solid;
+  border-radius: 100%;
+  padding: 15px;
+  width: 60%;
+  background: grey;
+  max-width: 60px;
+  margin: 0 auto;
+  border-color: white !important;
+}
+
+.torrent {
+  color: white;
+}
+
+.stack-top {
+  /*z-index: 9;*/
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.fas {
+  font-size: 20px;
+}
+
+.logo {
+  position: relative;
+  max-width: 337px;
+  padding-top: 70px;
+}
+
+.fa.fa-gear {
+  position: relative;
+  font-size: 25px;
+  margin-left: 90%;
+  padding-top: 20px;
+}
+
+.modaltoggle {
+  position: relative;
+}
+
+.modal-content {
+  text-align: left;
+}
+
