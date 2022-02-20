@@ -5,3 +5,7 @@ input.addEventListener("keyup", function(event) {
    document.getElementsByClassName("searchBtn")[0].click();
   }
 });
+
+function goSearch() {
+    window.location = (localStorage.getItem("searchengine")) + document.getElementById("searchValue").value;
+}
