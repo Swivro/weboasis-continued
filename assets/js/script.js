@@ -10,5 +10,6 @@ if (localStorage.getItem("searchengine")) {
     var engine = document.getElementById("engines");
     localStorage.setItem("searchengine", "https://search.swivro.net/secure/search?q=");
     engine.value = "swivro";
+    window.location.reload();
 }
 }
