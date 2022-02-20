@@ -59,5 +59,6 @@ function saveConfig() {
     
     setTimeout(function() {
      saveBtn.innerHTML = "Save";
-    }, 1500);
+     location.reload();
+    }, 1000);
 }
