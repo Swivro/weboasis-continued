@@ -107,3 +107,7 @@ span {
   text-align: left;
 }
 
+.check-invis {
+  display: none;
+}
+
